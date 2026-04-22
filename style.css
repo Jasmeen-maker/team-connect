@@ -146,3 +146,59 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* MOBILE FIX (IMPORTANT) */
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+    padding: 20px;
+  }
+
+  .img-box {
+    height: 200px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .role {
+    font-size: 13px;
+  }
+
+  /* APP SECTION MOBILE */
+  .app-box {
+    padding: 25px 20px;
+  }
+
+  .app-box h2 {
+    font-size: 20px;
+  }
+
+  .app-btn {
+    width: 100%;
+    padding: 12px;
+  }
+}
